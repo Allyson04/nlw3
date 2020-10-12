@@ -18,6 +18,14 @@ h1,
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    transition: background 200ms;
+    -webkit-transition: background 200ms;
+    -moz-transition: background 200ms;
+    -ms-transition: background 200ms;
+    -o-transition: background 200ms;
+}
+.visit a:hover {
+    background: #96feff;
 }
 
 #logo {
