@@ -24,3 +24,26 @@
     animation-duration: 300ms;
     animation-fill-mode: backwards;
 }
+
+@keyframes right {
+    from {
+        transform: translate(-100%)    ;
+        -webkit-transform: translate(-100%)    ;
+        -moz-transform: translate(-100%)    ;
+        -ms-transform: translate(-100%)    ;
+        -o-transform: translate(-100%)    ;
+    }
+
+    to {
+        transform: translate(0)    ;
+        -webkit-transform: translate(0)    ;
+        -moz-transform: translate(0)    ;
+        -ms-transform: translate(0)    ;
+        -o-transform: translate(0)    ;
+    }
+}
+
+.animate-right {
+    animation-name: right;
+    animation-duration: 300ms;
+}
